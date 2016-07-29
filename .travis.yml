@@ -1,5 +1,6 @@
 language: ruby
 cache: bundler
+rvm: 2.3.1
 
 env:
   - COMMAND="rspec foo_spec.rb"
