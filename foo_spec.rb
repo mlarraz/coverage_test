@@ -1,8 +1,7 @@
 require_relative './setup.rb'
-require_relative './foo.rb'
 
 RSpec.describe Foo do
-  it 'runs' do
-    Foo
+  it 'responds to .bar' do
+    Foo.bar
   end
 end
