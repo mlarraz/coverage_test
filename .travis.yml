@@ -1,0 +1,8 @@
+language: ruby
+cache: bundler
+
+env:
+  - COMMAND="rspec foo_spec.rb"
+  - COMMAND="ruby setup.rb"
+
+script: bundle exec $COMMAND
